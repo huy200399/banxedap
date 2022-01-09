@@ -1,0 +1,458 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/TrangChu.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="../javaScript/bootstrap.min.js"></script>
+	<title>Trang chủ</title>
+	
+</head>
+<body>
+
+
+<!--Navigation-->
+<div class="container-fluid">
+		<div id="logo">
+			<div class="row">
+			<div class="col-md-12">
+                <nav class="navbar navbar-expand-sm bg-light navbar-dark">
+                    <a class="navbar-brand" href="#"><img src="../image/logo.jpg" alt="logo"  height="60px"></a>
+                    <form class="form-inline" action="/action_page.php">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"><img src="../image/kinhLup.jpg" alt="kinhLup" width="23px" height="23px"></span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Nhập tên loại xe cần tìm" >
+                        </div>
+                    </form>
+                    <form class="form-inline" action="/action_page.php">
+                        <img class="imageInput" src="../image/dn.jpg" width="40px" height="40px"/>
+                        <a class="dangNhap" href="#" data-toggle="modal" data-target="#myModal">Đăng nhập</a>
+						
+						
+                    </form> 
+                </nav>
+			</div>
+		</div>
+		<div class="row" >
+			<div class="col-md-12">
+			
+				<nav class="navbar navbar-expand-sm bg-light navbar-dark">
+				  <!-- Brand -->
+				  <a class="navbar-brand" href="#">GIỚI THIỆU</a>
+
+				  <!-- Links -->
+				  <ul class="navbar-nav">
+				    <!-- Dropdown -->
+				    <li class="nav-item dropdown">
+				      <a class="nav-link " href="#" id="navbardrop" data-toggle="dropdown">
+				        XE MÁY ĐIỆN
+				      </a>
+				      <div class="dropdown-menu">
+				      	<table>
+				      		<tr>
+				        		<th><a class="dropdown-item" href="#">ANBICO</a></th>
+				        		<th><a class="dropdown-item" href="#">PEGA</a></th>
+				        		<th><a class="dropdown-item" href="#">FUJI</a></th>
+				        		<th><a class="dropdown-item" href="#">DKBIKE</a></th>
+				    		</tr>
+				    		<tr>
+				        		<td><a class="dropdown-item" href="#">NIJIA</a></td>
+				        		<td><a class="dropdown-item" href="#">SUFAT</a></td>
+				        		<td><a class="dropdown-item" href="#">YADEA</a></td>
+				        		<td><a class="dropdown-item" href="#">HONDA</a></td>
+				    		</tr>
+				    		<tr>
+				        		<td><a class="dropdown-item" href="#">OSAKAR</a></td>
+				        		<td><a class="dropdown-item" href="#">NISHIKI</a></td>
+				        		<td><a class="dropdown-item" href="#">SUZIKA</a></td>
+				        		<td><a class="dropdown-item" href="#">Khác</a></td>
+				    		</tr>
+				    		
+				        </table>
+				      </div>
+				    </li>
+				    <li class="nav-item dropdown">
+				      <a class="nav-link " href="#" id="navbardrop" data-toggle="dropdown">
+				        XE ĐẠP ĐIỆN
+				      </a>
+				      <div class="dropdown-menu">
+				      	      <table>
+                                    <tr>
+                                        <td><b><a class="dropdown-item" href="#">PEGA(HKBIKE)</a></b></td>
+                                        <td><b><a class="dropdown-item" href="#">DKBIKE</a></b></td>
+                                        
+                                    </tr>
+                                    <tr>
+                                        <td><a class="dropdown-item" href="#">FUJI</a></td>
+                                        <td><a class="dropdown-item" href="#">NIJIA</a></td>
+                                        
+                                    </tr>
+                                    <tr>
+                                        <td><a class="dropdown-item" href="#">SUFAT</a></td>
+                                        <td><a class="dropdown-item" href="#">YADEKA</a></td>
+                                      
+                                    </tr>
+                                    <tr>
+                                        <td><a class="dropdown-item" href="#">SUZIKA</a></td>
+                                        <td><a class="dropdown-item" href="#">NIKEBIKE</a></td>
+                                        
+                                    </tr>
+                                    <tr>
+                                        <td><a class="dropdown-item" href="#">HONDA</a></td>
+                                        <td><a class="dropdown-item" href="#">NISHIKI</a></td>
+                                        
+                                    </tr>
+                                    <tr>
+                                        <td><a class="dropdown-item" href="#">DRACA</a></td>
+                                        <td><a class="dropdown-item" href="#">OSHAKAR</a></td>
+                                        
+                                    </tr>
+                                    <tr>
+                                        <td><a class="dropdown-item" href="#">DTP</a></td>
+                                        <td><a class="dropdown-item" href="#">MARTIN</a></td>
+                                        
+                                    </tr>
+                                    <tr>
+                                        <td><a class="dropdown-item" href="#">ANBICO</a></td>
+                                        <td><a class="dropdown-item" href="#">EVEREST</a></td>
+                                       
+                                    </tr>
+                                </table>
+				      </div>
+				    </li>
+				    
+					<li class="nav-item dropdown">
+				      <a class="nav-link " href="#" id="navbardrop" data-toggle="dropdown">
+				        PHỤ TÙNG
+				      </a>
+					</li>
+				    <li class="nav-item dropdown">
+				      <a class="nav-link " href="#" id="navbardrop" data-toggle="dropdown">
+				        ƯU ĐÃI
+				      </a>
+					</li>
+				
+    		 <li class="nav-item dropdown">
+				      <a class="nav-link " href="#" id="navbardrop" data-toggle="dropdown">
+				        SHOWROOM
+				      </a>
+				      <div class="dropdown-menu">
+				        		<th><a class="dropdown-item" href="#">398 Trường Chinh ,p13,Q.Tân Bình, Hồ Chí Minh</a></th>
+				        		<th><a class="dropdown-item" href="#">629Luỹ Bán Bích, P. Phú Thạnh, Tân Phú, Hồ Chí Minh</a></th>
+				        		<th><a class="dropdown-item" href="#">49 Lê Đức Thọ, Thới An, Q.12, Hồ Chí Minh</a></th>
+				        		<th><a class="dropdown-item" href="#"> 1F Tân Hải ,P 13, Q.Tân Bình, Hồ Chí Minh (Trung Tâm bảo hành)</a></th>
+				        		<th><a class="dropdown-item" href="#"> 586 Lê Văn Khương,P Thới An , Q12</a></th>
+				        		<th><a class="dropdown-item" href="#">86 Quốc Lộ 1K, P Linh Xuân ,Q Thủ Đức</a></th>
+				      </div>
+				    </li>
+				    </li>
+				    <li class="nav-item dropdown">
+				      <a class="nav-link " href="#" id="navbardrop" data-toggle="dropdown">
+				        TIN TỨC
+				      </a>
+				      <div class="dropdown-menu">
+				      	<th><a class="dropdown-item" href="#">TIN HAY</a></th>
+				        		<th><a class="dropdown-item" href="#">ĐĂNG KÍ BIỂN SỐ</a></th>
+				        		<th><a class="dropdown-item" href="#">CHÍNH SÁCH VÀ QUY ĐỊNH</a></th>
+				        		<th><a class="dropdown-item" href="#">VẬN CHUYỂN</a></th>
+				        		<th><a class="dropdown-item" href="#">BẢO HÀNH</a></th>
+				        		<th><a class="dropdown-item" href="#">BẢO DƯỠNG</a></th>
+								<th><a class="dropdown-item" href="#">SỬA CHỬA TẬN NƠI</a></th>
+								<th><a class="dropdown-item" href="#">TRẢ GÓP LÃI SUẤT 0%</a></th>
+					       		
+				      </div>
+				    </li>
+				    
+				    <li class="nav-item">
+				      <a class="nav-link" href="#">HỎI ĐÁP</a>
+				    </li>
+				  </ul>
+				</nav>
+			</div>
+		</div>
+		</div>
+	<div class="container" style="background-color:GreenYellow">
+		<div class="row">
+		<div class="col-md-12">
+			<div id="demo" class="carousel slide" data-ride="carousel">
+
+			  <!-- Indicators -->
+			  <ul class="carousel-indicators">
+			    <li data-target="#demo" data-slide-to="0" class="active"></li>
+			    <li data-target="#demo" data-slide-to="1"></li>
+			    <li data-target="#demo" data-slide-to="2"></li>
+			    <li data-target="#demo" data-slide-to="3"></li>
+			    <li data-target="#demo" data-slide-to="4"></li>
+			  </ul>
+
+			  <!-- The slideshow -->
+			  <div class="carousel-inner">
+			    <div class="carousel-item active">
+			      <img src="../image/xe1.jpg" alt="" width="100%" height="550px" >
+			    </div>
+			    <div class="carousel-item">
+			      <img src="../image/xe2.jpg" alt="" width="100%" height="550px">
+			    </div>
+			    <div class="carousel-item">
+			      <img src="../image/xe3.jpg" alt="" width="100%" height="550px">
+			    </div>
+			     <div class="carousel-item">
+			      <img src="../image/xe4.jpg" alt="" width="100%" height="550px">
+			    </div>
+			     <div class="carousel-item">
+			      <img src="../image/xe5.jpg" alt="" width="100%" height="550px">
+			    </div>
+			  </div>
+
+			  <!-- Left and right controls -->
+			  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+			    <span class="carousel-control-prev-icon"></span>
+			  </a>
+			  <a class="carousel-control-next" href="#demo" data-slide="next">
+			    <span class="carousel-control-next-icon"></span>
+			  </a>
+
+
+			</div>
+		</div>
+		</div>
+		<div class="row">
+		<div class="col-md-12">
+		</div>
+
+		</div>
+		</div>
+		<section id="left">
+			
+		<a href="#" onMouseOver="showLink(1)">Danh muc xe dap (151)</a>
+		<br><a href="#" onMouseOver="showLink(1)">Xe đạp điện trợ lực(112)</a>
+		<br><a href="#" onMouseOver="showLink(1)">Xe đạp điện tay ga(24)</a>
+		<br><a href="#" onMouseOver="showLink(1)">Xe đạp chuyên dụng(151)</a>
+		<br><a href="#" onMouseOver="showLink(1)">Phục tùng linh kiện xe(20)</a>
+	
+		</section>
+		
+		<section id="center">
+		<div class= "container-fluid">
+         <h2>CÁC LOẠI XE</h2>
+         <div class= "row d-inline-flex">
+            <!-- Gallery Item 1 -->
+            <div class ="col-12 col-sm-6 col-md-4 p-2">
+               <div class="d-flex flex-column text-center border height100">
+                  <div>
+                     <img src="../image/xeban1.jpg"  height="200px" />
+                  </div>
+                  <h5>Xe Điện Zoomer Dibao</h5>
+				   <b  style="color:red;" > Giá: 14,000,000VND</b>
+				  <a href="Thongso1.html"> <button type="button" class="btn btn-success"style="width:200px">Thông Số</button></a>
+				   
+				   <a href="Tinhtien1.html"  ><input type="submit" value="Mua" style="color:red;"  > </a>
+				    
+				   
+               </div>
+            </div>
+            <!-- Gallery Item 2 -->
+            <div class ="col-12 col-sm-6 col-md-4 p-2">
+               <div class="d-flex flex-column text-center border height100">
+                  <div>
+                     <img src="../image/xeban2.jpg"   height="200px"/>
+                  </div>
+                  <h5>Xe Điện YAMAHA ICATS H3</h5>
+				   <b  style="color:red;" > Giá: 9,500,000VND</b>
+				    <a href="Thongso2.html">   <button type="button" class="btn btn-success"style="width:200px">Thông Số</button></a>
+					<a href="Tinhtien2.html"  ><input type="submit" value="Mua" style="color:red;"  > </a>
+               </div>
+            </div>
+			
+			 <!-- Gallery Item 3 -->
+            <div class ="col-12 col-sm-6 col-md-4 p-2">
+               <div class="d-flex flex-column text-center border height100">
+                  <div>
+                     <img src="../image/xeban3.jpg"   height="200px"/>
+                  </div>
+                  <h5>Xe đạp điện Star TSBike<</h5>
+				   <b  style="color:red;" > Giá: 10,500,000VND</b>
+				     <a href="Thongso3.html">   <button type="button" class="btn btn-success"style="width:200px">Thông Số</button></a>
+					<a href="Tinhtien3.html"  ><input type="submit" value="Mua" style="color:red;"  > </a>
+               </div>
+            </div>
+			
+     
+            <!-- Gallery Item 4 -->
+            <div class ="col-12 col-sm-6 col-md-4 p-2">
+               <div class="d-flex flex-column text-center border height100">
+                  <div>
+                     <img src="../image/xeban4.jpg" height=" 200px"/>
+                  </div>
+                      <h5>XE ĐẠP ĐIỆN YAMAHA</h5>
+				     <b  style="color:red;" > Giá: 8,550,000VND</b>
+				      <a href="Thongso4.html">   <button type="button" class="btn btn-success"style="width:200px">Thông Số</button></a>
+					<a href="Tinhtien4.html"  ><input type="submit" value="Mua" style="color:red;"  > </a>
+               </div>
+            </div>
+            <!-- Gallery Item 5 -->
+            <div class ="col-12 col-sm-6 col-md-4 p-2">
+               <div class="d-flex flex-column text-center border height100">
+                  <div>
+                     <img src="../image/xeban5.jpg" height=" 200px"/>
+                  </div>
+				      <h5>Xe điện Honda Model M8</h5>
+				    <b  style="color:red;" > Giá: 11,500,000VND</b>
+				      <a href="Thongso5.html"> <button type="button" class="btn btn-success"style="width:200px">Thông Số</button></a>
+					 <a href="Tinhtien5.html"  ><input type="submit" value="Mua" style="color:red;"  > </a>
+               </div>
+            </div>
+            <!-- Gallery Item 6 -->
+            <div class ="col-12 col-sm-6 col-md-4 p-2">
+               <div class="d-flex flex-column text-center border height100">
+                  <div>
+                     <img src="../image/xeban6.jpg" height=" 200px"/>
+                  </div>
+                  	  <h5>Xe điện Honda A6 phiên bản 2019</h5>
+				     <b  style="color:red;" > Giá: 12,599,000VND</b>
+				    <a href="Thongso6.html">   <button type="button" class="btn btn-success"style="width:200px">Thông Số</button></a>
+					 <a href="Tinhtien6.html"  ><input type="submit" value="Mua" style="color:red;"  > </a>
+               </div>
+            </div>
+    
+		 
+		  <!-- Gallery Item 7 -->
+            <div class ="col-12 col-sm-6 col-md-4 p-2">
+               <div class="d-flex flex-column text-center border height100">
+                  <div>
+                     <img src="../image/xeban7.jpg"   height="200px"/>
+                  </div>
+                  <h5>XE ĐẠP ĐIỆN BRIDGESTONE SPK48</h5>
+				   <b  style="color:red;" > Giá: 9,500,000VND</b>
+				     <a href="Thongso7.html"> <button type="button" class="btn btn-success"style="width:200px">Thông Số</button></a>
+				<a href="Tinhtien7.html"  ><input type="submit" value="Mua" style="color:red;"  > </a>
+               </div>
+            </div>
+			  <!-- Gallery Item 8 -->
+            <div class ="col-12 col-sm-6 col-md-4 p-2">
+               <div class="d-flex flex-column text-center border height100">
+                  <div>
+                     <img src="../image/xeban8.jpg"   height="200px"/>
+                  </div>
+                  <h5>Xe đạp điện Dk Poke</h5>
+				   <b  style="color:red;" > Giá: 15,500,000VND</b>
+				   <a href="Thongso8.html">    <button type="button" class="btn btn-success"style="width:200px">Thông Số</button></a>
+					<a href="Tinhtien8.html"  ><input type="submit" value="Mua" style="color:red;"  > </a>
+               </div>
+            </div>
+			  <!-- Gallery Item 9 -->
+            <div class ="col-12 col-sm-6 col-md-4 p-2">
+               <div class="d-flex flex-column text-center border height100">
+                  <div>
+                     <img src="../image/xeban9.jpg"   height="200px"/>
+                  </div>
+                  <h5>Xe đạp điện Giant M133P plus</h5>
+				   <b  style="color:red;" > Giá: 9,500,800VND</b>
+				  <a href="Thongso9.html">   <button type="button" class="btn btn-success"style="width:200px">Thông Số</button></a> 
+					<a href="Tinhtien9.html"  ><input type="submit" value="Mua" style="color:red;"  > </a>
+               </div>
+                 </div>
+			 </div>
+                     <center>  <input type="submit" value="--------XEM THÊM--------"></input> <center>
+					   <h1><marquee>HK BIKE</marquee><h1>
+                        <video width="700" controls>
+                              <source src="../video/HK.mp4" type="video/mp4">
+                               <source src="movie.ogg" type="video/ogg">
+                                         </video>
+		
+		</section>
+		<section id="right" >
+		<h5>CÁC SẢN PHẨM MỚI</h5>
+		<p><img src="../image/xe3.jpg" alt="xe3" width="55x" height="55px">Xe đạp điện Honda TXbike</p>
+		<p><img src="../image/xe2.jpg" alt="xe2" width="55x" height="55px">Xe đạp điện Yamaha XL</p>
+		<p><img src="../image/xe5.jpg" alt="xe5" width="55x" height="55px">Xe đạp điện Yamaha Tbike</p>
+		<p><img src="../image/xeban1.jpg" alt="xeban1" width="55x" height="55px">Xe đạp điện Zoomer Dibao</p>
+		<p><img src="../image/xeban7.jpg" alt="xeban7" width="55x" height="55px">Xe đạp điện BRIDGESTONE </p>
+		<hr>
+		<p><img src="../image/dang-ky-bien-so-xe-may-dien497.jpg" alt="dk" width="250x" height="250px">
+		<p><img src="../image/kiem-tra-xe-dap-dien-mien-phi173.jpg" alt="dk" width="250x" height="250px">
+		<hr>
+		<h5>VIDEO XE ĐIỆN</h5>
+		<p><img src="../image/dao-tao-nghe-sua-chua-xe-dap-dien-xe-may-dien595.jpg" alt="daotao" width="55x" height="55px">Đào tạo nghề miển phí</p>
+		<p><img src="../image/xeban6.jpg" alt="xeban6" width="55x" height="55px">Đánh giá xe Honda A6</p>
+		<p><img src="../image/ban-tra-gop100.jpg" alt="bantragop" width="55x" height="55px">Bán trả góp lãi suất 0%</p>
+		<p><img src="../image/xe1.jpg" alt="xe1" width="55x" height="55px">Kinh nghiệm mua xe cũ</p>
+		<p><img src="../image/xeban5.jpg" alt="xeban5" width="55x" height="55px">Hướng dẩn tăng thắng xe A8</p>
+		</section>
+		
+		<section>
+			<h5> VỀ CHÚNG TÔI</h5>
+			<p><img src="../image/diadiem.jpg" alt="diadiem" width="23px" height="23px">398 Trường Chinh ,P13,Quận Tân Bình,HCM</p>
+			<p><img src="../image/dienthoai.jpg" alt="dienthoai" width="23px" height="23px">0917.804.719 - 096.222.1555</p>
+			<p><img src="../image/mst.jpg" alt="mst" width="23px" height="23px">MST:0340030300</p>
+			<p><img src="../image/mail.png" alt="mst" width="23px" height="23px">buidoanquanghuy200399@gmail.com</p>
+			<p><img src="../image/dongho.jpg" alt="mst" width="23px" height="23px">8:00 - 21:00</p>
+		</section>
+	
+		<div class="container">
+
+
+
+  <!-- The Modal -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Thông tin đăng nhập</h4>
+		  
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+		<form action="/action_page.php">
+  <div class="form-group">
+    <label for="email">Tên đăng nhập hoặc email:</label>
+    <input type="email" class="form-control" id="email">
+  </div>
+  <div class="form-group">
+    <label for="pwd">Mật khẩu:</label>
+    <input type="password" class="form-control" id="pwd">
+  </div>
+  <div class="form-group form-check">
+    <label class="form-check-label">
+      <input class="form-check-input" type="checkbox"> Lưu mật khẩu
+    </label>
+  </div>
+  <button type="submit" class="btn btn-primary">Đăng nhập</button>
+</form>
+        </div>
+		
+		
+		
+		<div class="modal-body">
+		<form action="/action_page.php">
+  <div class="form-group">
+    <label for="email">Tên đăng nhập:</label>
+  
+  </div>
+  <div class="form-group">
+
+  </div>
+  <div class="form-group form-check">
+
+  </div>
+
+</form>
+        </div>
+        
+
+      </div>
+    </div>
+  </div>
+  
+</div>
+</div>
+
+</body>
+</html>
